@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import { my_project_backend } from 'declarations/my_project_backend/index';
+import { my_project_backend } from 'declarations/my_project_backend/index'; //dzieki declarations mozemy to zrobic
 let greeting = ref('');
 
 async function handleSubmit(e) {
